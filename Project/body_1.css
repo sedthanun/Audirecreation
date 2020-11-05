@@ -1,0 +1,110 @@
+body{
+    font-family: 'Yantramanav', sans-serif;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.first{
+    width: 100vw;
+    height: 480px;
+    background-color: aqua;
+    background-image: url(".\\Image+Site\\first\\1.webp");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 100vw auto;
+}
+.learn{
+    width: 250px;
+    border: none;
+}
+.learn:hover{
+    background-color: rgb(192, 192, 192);
+}
+.mb-5{
+    margin-bottom: 100px!important;
+}
+.img1{
+    width: 100%;
+    height: 700px;
+}
+
+#know .col-3{
+    flex-basis: 31%!important;
+    max-width: 31%!important;
+    margin-bottom: 95px;
+}
+#know p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.img2{
+    width: 100%;
+}
+.a{
+    text-decoration: none;
+}
+.btn-dark{
+    background-color: black;
+    width: 50%;
+    padding: 20px!important;
+}
+.btn-dark:hover{
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+
+.bg-light{
+    background-color: rgb(242, 242, 242)!important;
+}
+
+.row{
+    margin: 0px;
+}
+.button{
+    background: none;
+    border: white 1px solid;
+    color: white;
+    bottom: 0px;
+}
+.button:hover{
+    border: rgba(255, 255, 255, 0.555) 1px solid;
+    color:  rgba(255, 255, 255, 0.555);
+}
+
+.font-btn{
+    font-size: 20px;
+}
+
+#social .col-3{
+    flex-basis: 31%!important;
+    max-width: 31%!important;
+    margin-bottom: 95px;
+}
+#social h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    width: 60px;
+    bottom: 23px;
+}
+
+#social .bg-light{
+    height: 190px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 60px;
+}
+
+#b-footer{
+    height: 450px;
+}
+#b-footer .models{
+    margin:0px 200px 0px 100px!important;
+}
+#b-footer h4{
+    margin-bottom: 30px;
+}
