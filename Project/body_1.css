@@ -46,8 +46,8 @@ body{
 }
 .btn-dark{
     background-color: black;
-    width: 50%;
-    padding: 20px!important;
+    width: 40%;
+    padding: 15px!important;
 }
 .btn-dark:hover{
     background-color: rgba(0, 0, 0, 0.699);
