@@ -7,7 +7,6 @@ body{
 .first{
     width: 100vw;
     height: 480px;
-    background-color: aqua;
     background-image: url(".\\Image+Site\\first\\1.webp");
     background-repeat: no-repeat;
     overflow: hidden;
@@ -82,13 +81,13 @@ body{
     margin-bottom: 95px;
 }
 #social h4{
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
 }
 
-.icon{
-    width: 60px;
-    bottom: 23px;
+#social .icon{
+    width: 70px;
+    bottom: 2px;
 }
 
 #social .bg-light{
