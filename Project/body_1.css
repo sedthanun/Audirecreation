@@ -123,6 +123,7 @@ float: left;
 list-style: none;
 position: relative;
 text-align: center;
+
 }
 
 
@@ -148,7 +149,9 @@ nav{
     padding: 30px 10%;
     margin:0;
     position: relative;
-    z-index: 2;
+    z-index: 2000;
+
+    
 }
 
 .logo{
@@ -166,7 +169,8 @@ nav{
     max-height: 450px;
     position: absolute;
     left: 0;
-    z-index: 1;
+    
+    
 }
  
 nav li:hover .menu-sub{
