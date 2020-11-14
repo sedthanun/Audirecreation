@@ -10,6 +10,8 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="body_1.css">
     <link rel="stylesheet" href="font.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Yantramanav&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -17,48 +19,65 @@
 
 <body>
     <div class="container-fluid m-0 p-0">
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#home">Menu</a></li>
-                    <li><a href="#news">A1</a>
-                        <div class="menu-sub">
-                            <ul>
-                                <li><a href="#a1sportback">A1 Sport Back</a></li>
-                            </ul>
-                            <img src='Image+Site/A1/1.jpg' width='500'>
-                            <h1>A1 Sport Back</h1>
-                            <p>Spacious, sporty, emotive.<br>
-                                The new Audi A1 Sportback.
-                            </p>
-                        </div>
-                    </li>
-                    <li><a href="#contact">A2</a>
-                        <div class="menu-sub">
-                            <h1>A2 Sport Back</h1>
-                            <ul>
-                                <li><a href="#a1sportback">A1 Sport Back</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#about">A5</a></li>
-                    <li><a href="#contact">A6</a></li>
-                    <li><a href="#about">A7</a></li>
-                    <li><a href="#contact">Q2</a></li>
-                    <li><a href="#about">Q3</a></li>
-                    <li><a href="#about">Q5</a></li>
-                    <li><a href="#about">Q7</a></li>
-                    <li><a href="#about">Q8</a></li>
-                    <li><a href="#about">TT</a></li>
-                    <li><a href="#about">RS</a></li>
-                    <li><a href="#about">e-tron</a></li>
-                    <li><a href="#about">Search</a></li>
-                    <li class="ml-10"><img border="0" alt="Audi" src='audi.png' width='70'></li>
-                </ul>
+        <nav class="navcontainer">
+            <ul class="nav-links">
+                <li><a href="#home"><span><i class="fas fa-bars"></i>&nbsp;Menu</span></a>
+                <div class="menu-sub">
                 
-            </nav>
+                    <ul>
+                        <li><a href="#a1sportback">Home</a></li><br>
+                        <li><a href="#a1sportback">Model Overview</a></li><br>
+                        <li><a href="#a1sportback">Contact&Service</a></li>
+                    </ul>
+                    
+                    
+                </div>
+            </li>
+                <li><a href="#news">A1</a>
+                    <div class="menu-sub">
+                        <ul>
+                            <li><a href="#a1sportback">A1 Sport Back</a></li>
+                        </ul>
+                        <img src='Image+Site/A1/1.jpg' width='500'>
+                        <h1>A1 Sport Back</h1>
+                        <p>Spacious, sporty, emotive.<br>
+                            The new Audi A1 Sportback.
+                        </p>
+                    </div>
+                </li>
+                <li><a href="#contact">A2</a>
+                    <div class="menu-sub">
+                        <h1>A2 Sport Back</h1>
+                        <ul>
+                            <li><a href="#a1sportback">A1 Sport Back</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#about">A5</a></li>
+                <li><a href="#contact">A6</a></li>
+                <li><a href="#about">A7</a></li>
+                <li><a href="#contact">Q2</a></li>
+                <li><a href="#about">Q3</a></li>
+                <li><a href="#about">Q5</a></li>
+                <li><a href="#about">Q7</a></li>
+                <li><a href="#about">Q8</a></li>
+                <li><a href="#about">TT</a></li>
+                <li><a href="#about" class="square">RS</a></li>
+                <li><a href="#about">e-tron</a></li>
+                <li><a href="#about"><span><i class="fas fa-search"></i>&nbsp;Search</span></a></li>
+                <li class="ml-10"><img border="0" alt="Audi" src='audi.png' width='70'></li>
+            </ul>
 
-            
-     
+        </nav>
+        <script>
+            $("nav li").click(function () {
+                $(this).siblings().removeClass('open');
+                $(this).toggleClass("open")
+            });
+        </script>
+
+
+
         <!--first-->
         <section class="first">
             <div class="ml-5 p-4 text-light">

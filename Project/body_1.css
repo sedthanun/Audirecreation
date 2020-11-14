@@ -147,7 +147,7 @@ nav a:hover{
 nav{   
     display: flex;
     justify-content: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
     margin:0;
     position: relative;
     z-index: 2000;
@@ -170,13 +170,24 @@ nav{
     max-height: 450px;
     position: absolute;
     left: 0;
-    
-    
+    top: -1.5rem;
+    z-index: -2;
+    padding-top: 3.4rem;
 }
  
-nav li:hover .menu-sub{
+nav li.open .menu-sub{
     height: 450px;
     margin: 0px;
 }
 nav li:nth-child(16){
     margin-left: 7cm;
+}
+.square::before{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    background: red;
+    transform: skew(-30deg);
+}
