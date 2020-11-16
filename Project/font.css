@@ -21,7 +21,7 @@ src: local('Audi Type Extended Normal'), url('AudiType-ExtendedNormal_4.03.woff'
 body{
     font-family: 'Audi Type Normal';
 }
-h1{
+h1, .first h5{
     font-family: 'Audi Type Extended Bold';
 }
 button,a{
