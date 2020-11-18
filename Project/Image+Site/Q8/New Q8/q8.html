@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Glider.js-master/glider.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Glider.js-master/glider.css">
+    <link rel="stylesheet" href="font.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- แบนเนอร์ของเว็บไซต์ -->
+    <div class="banner">
+        <picture><img src="1.webp" alt="" width="100%"></picture>
+
+        <div class="top-left">
+            <h1 class="h1_top">Q8</h1>
+        </div>
+    </div>
+    <!-- หัวข้อแรก -->
+    <div class="first">
+        <h1 class="h1_first">The new face of the Q family: <br>
+            the Audi Q8</h1>
+
+        <p class="p_first">The Audi Q8 combines the elegance of a four-door
+            luxury coupé with the practical versatility of a large SUV. Richly equipped
+            , comprehensively connected and tough enough for off-road duty, it is a confident companion for business and
+            leisure.
+            Expressive design with new Singleframe and features from the original Audi quattro. Generous, elegant
+            interior,
+            touch operating concept and high-tech navigation: The Audi Q8 is a confident companion for business and
+            leisure.
+        </p>
+        <div class="pdf_bar">
+            <div>
+                <a><img src="component/paper.svg" alt="" class="icon"></a>
+                <br><span>Brochure</span>
+            </div>
+            <div>
+                <a><img src="component/paper.svg" alt="" class="icon"></a>
+                <br><span>Price List</span>
+            </div>
+            <div>
+                <a><img src="component/car.svg" alt="" class="icon"></a>
+                <br><span>Dimensions</span>
+            </div>
+            <div>
+                <a><img src="component/test.svg" alt="" class="icon"></a>
+                <br><span>Arrange a Test Drive</span>
+            </div>
+        </div>
+    </div>
+    <!-- ส่วนแสดงรูปภาพ -->
+    <div class="picture_showing">
+        <div class="glider-contain" id="data" style="width: 75%;">
+            <div class="glider" style="margin-top: 10px;">
+                <img src="2.1.webp" alt="" class="image_slide_0">
+                <img src="2.2.webp" alt="" class="image_slide_0">
+                <img src="2.3.webp" alt="" class="image_slide_0">
+                <img src="2.4.jpg" alt="" class="image_slide_0">
+                <img src="2.5.webp" alt="" class="image_slide_0">
+                <img src="2.6.webp" alt="" class="image_slide_0">
+                <img src="2.7.jpg" alt="" class="image_slide_0">
+                <img src="2.8.webp" alt="" class="image_slide_0">
+                <img src="2.9.webp" alt="" class="image_slide_0">
+                <img src="2.10.webp" alt="" class="image_slide_0">
+                <img src="2.11.jpg" alt="" class="image_slide_0">
+                <img src="2.12.webp" alt="" class="image_slide_0">
+            </div>
+            <label class="circle" onclick="visible()"><img src="component/cross-large.svg" alt="" id="x"></label>
+            <a aria-label="Previous" class="glider-prev" onclick="setValueDown()">
+                <img src="component/arrowl.svg" alt="" width="35%" height="50%"></a>
+            <a aria-label="Next" class="glider-next" onclick="setValueUp()">
+                <img src="component/arrowr.svg" alt="" width="35%" height="50%">
+            </a>
+
+        </div>
+        <div class="glider-contain" id="data" style="width: 75%;">
+            <div class="glider" style="margin-top: 10px;">
+                <img src="2.1.webp" alt="" class="image_slide">
+                <img src="2.2.webp" alt="" class="image_slide">
+                <img src="2.3.webp" alt="" class="image_slide">
+                <img src="2.4.jpg" alt="" class="image_slide">
+                <img src="2.5.webp" alt="" class="image_slide">
+                <img src="2.6.webp" alt="" class="image_slide">
+                <img src="2.7.jpg" alt="" class="image_slide">
+                <img src="2.8.webp" alt="" class="image_slide">
+                <img src="2.9.webp" alt="" class="image_slide">
+                <img src="2.10.webp" alt="" class="image_slide">
+                <img src="2.11.jpg" alt="" class="image_slide">
+                <img src="2.12.webp" alt="" class="image_slide">
+            </div>
+            <div class="button_1">
+                <a aria-label="Previous" class="glider-prev_1">
+                    <img src="component/arrowlB.svg" alt="" width="20%" height="50%"></a>
+                <a aria-label="Next" class="glider-next_1">
+                    <img src="component/arrowrB.svg" alt="" width="20%" height="50%">
+                </a>
+            </div>
+            <!-- เนื้อหาที่ซ่อนใต้รูปภาพ -->
+            <div class="p_hidden">
+                <p class="p_detail"></p>
+            </div>
+        </div>
+
+    </div>
+    <!-- หัวข้อที่ 2 -->
+    <div class="second">
+        <h1 class="h1_second">New presence for the Q family: the <br>
+            exterior design</h1>
+
+        <p class="p_second">With the imposing Singleframe in octagonal design,
+            the Audi Q8 is the new face of the Q family. The brawny radiator grille stands upright and,
+            together with the spoiler that has been drawn toward the front and the large,
+            highly contoured air inlets, emphasizes the self-confident look
+            . The elegantly sloping roofline terminates in gently inclined D-pillars
+            and rests against the quattro blisters above the wheel arches. A light strip connects the units at the rear.
+        </p>
+        <div class="picture_second">
+            <img src="3.1.webp" alt="" width="100%" class="picture_exterior" style="transition-duration: .5s;">
+            <div class="exterior">
+                <a class="View View_active text-second" type="button" onclick="change_image(1)">Front View</a>
+                <a class="View text-second" type="button" onclick="change_image(2)">Side View</a>
+                <a class="View text-second" type="button" onclick="change_image(3)">Rear View</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="circle_main">
+        <label class="circle_2 rotation" onclick="show(1)"><img src="component/cross-large.svg" alt="" width="80%"></label>
+    </div>
+    
+    <div class="hidden">
+        <div class="hidden_h1">
+            <h1>Expressive design: the face</h1>
+        </div>
+        <div class="container hidden_content">
+            <div class="row">
+                <div class="col-6">
+                    <img src="more/1.webp" alt="" width="100%">
+                </div>
+                <div class="col-6">
+                    <p>With the imposing Singleframe in octagonal design, the Audi Q8 is the new face of the Q family.
+                        The brawny radiator grille stands upright and, together with the spoiler that has been drawn
+                        toward the front and the large,
+                        highly contoured air inlets, emphasizes the self-confident look.</p>
+                </div>
+            </div>
+        </div>
+        <div class="hidden_h1">
+            <h1>Strength and dynamic: the sidelines</h1>
+        </div>
+        <div class="container hidden_content">
+            <div class="row">
+                <div class="col-6">
+                    <p>The elegantly sloping roofline terminates in gently inclined D-pillars and rests against the
+                        quattro blisters
+                        above the wheel arches. Strong contours and athletically tight surfaces convey a feeling of
+                        power,
+                        sophistication and the special dynamics of the permanent all-wheel drive.</p>
+                </div>
+                <div class="col-6">
+                    <img src="more/2.webp" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+        <div class="hidden_h1">
+            <h1>Strength and dynamic: the sidelines</h1>
+        </div>
+        <div class="container hidden_content">
+            <div class="row">
+                <div class="col-6">
+                    <img src="more/3.webp" alt="" width="100%">
+                </div>
+                <div class="col-6">
+                    <p>
+                        The elegantly sloping roofline terminates in gently inclined D-pillars and rests against the
+                        quattro blisters above the wheel arches. Strong contours and athletically tight surfaces convey
+                        a feeling of power, sophistication and the special dynamics of the permanent all-wheel drive.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="more_exterior" style="text-align: center;">
+        <span>More about the exterior</span>
+    </div>
+    <!-- หัวข้อที่ 3 -->
+    <div class="third">
+        <h1 class="h1_third">Sporty driving experience: driving dynamics and motor</h1>
+        <p class="p_third">The purely mechanical center differential transfers the forces to the front axle and rear
+            axle at a ratio of 40:60 as standard.
+            When required, it transfers the majority to the axle with the better traction.Besides the standard
+            progressive steering,
+            whose steering ratio becomes increasingly direct the further the steering wheel is turned.
+            The 3.0 TFSI engine is particularly efficient thanks to the new mild hybrid technology (MHEV).
+        </p>
+        <img src="4.webp" alt="" class="picture_sh">
+    </div>
+    <div class="circle_main">
+        <label class="circle_2 rotation" onclick="show(2)"><img src="component/cross-large.svg" alt="" width="80%"></label>
+    </div>
+    <div class="hidden">
+        <div class="hidden_h1">
+            <h1>Sporty driving experience</h1>
+        </div>
+        <div class="container hidden_content">
+            <div class="row">
+                <div class="col-6">
+                    <img src="more/4.webp" alt="" width="100%">
+                </div>
+                <div class="col-6">
+                    <p>The 3.0 TFSI engine is particularly efficient thanks to the new mild hybrid technology
+                        (MHEV). The 48-volt primary electrical system incorporates two important technology modules:
+                        a lithiumion battery and a belt alternator starter. During braking, it can recover up to 12
+                        kW of power and feed it back into the battery. The MHEV technology enables long coasting
+                        phases with the engine deactivated and a start-stop range that begins at 22 km/h (13.7 mph).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="hidden_h1">
+            <h1>Depending on driver´s preference: the suspension</h1>
+        </div>
+        <div class="container hidden_content">
+            <div class="row">
+                <div class="col-6">
+                    <p>The purely mechanical center differential transfers the forces to the front axle and rear
+                        axle at a ratio of 40:60 as standard. When required, it transfers the majority to the axle
+                        with the better traction. That plus as much 254 millimeters (10.0 in) of ground clearance,
+                        short overhangs and hill descent control means the Audi Q8 can keep going even after the
+                        pavement ends. The sport adaptive air suspension with controlled damping is standard, with
+                        either comfort or sport setup. It adjusts the ride height depending on the driving situation
+                        and the driver’s preference by as much as 90 millimeters (3.5 in).</p>
+                </div>
+                <div class="col-6">
+                    <img src="more/5.webp" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="more_exterior" style="text-align: center;">
+        <span>More about the moter</span>
+    </div>
+    <!-- หัวข้อที่ 4 -->
+    <div class="fourth">
+        <h1 class="h1_fourth">Clarity is the new premium: the interior</h1>
+        <p class="p_fourth">Easy-to-understand symbols stand for the digital precision from Audi and for the high level
+            of integration of architecture and operation.
+            The central element is the top MMI touch response display. With its black - panel look, it almost dissolves
+            into a large,
+            black surface when switched off. All elements refer logically to one another,
+            from the flat air vent strip to the wide console on the center tunnel bearing the tiptronic selector lever.
+        </p>
+        <img src="5.webp" alt="" width="100%">
+    </div>
+    <div class="black">
+        <div class="circle_main circle_black">
+            <label class="circle_3 rotation" onclick="show(3)"><img src="component/cross-largeB.svg" alt="" width="80%"></label>
+        </div>
+        <div class="hidden" style="margin-top: -20px;">
+            <div class="hidden_h1">
+                <h1>MMI response touch technology</h1>
+            </div>
+            <div class="container hidden_content">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="more/6.webp" alt="" width="100%">
+                    </div>
+                    <div class="col-6">
+                        <p>With the MMI touch response operating concept of the new Audi Q8, nearly every function can
+                            be accessed via two large displays. The upper 10.1-inch display is used for controlling the
+                            infotainment and the navigation system. The driver uses the 8.6-inch display below that for
+                            air conditioning, convenience functions and text input. Hardly anything is more intuitive
+                            than language. The Audi Q8 can now also be operated with it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden_h1">
+                <h1>Bang & Olufsen Premium Sound System</h1>
+            </div>
+            <div class="container hidden_content">
+                <div class="row">
+                    <div class="col-6">
+                        <p>
+                            The Bang & Olufsen Premium Sound System delivers fascinating 3D sound with height
+                            information to all five seats. The music unfolds exactly how it was recorded in the concert
+                            hall.</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="more/7.webp" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more_exterior" style="text-align: center; background-color: black;">
+            <span style="color: white;">More about the interior</span>
+        </div>
+        <!-- หัวข้อที่ 5 -->
+        <div class="fifth">
+            <h1 class="h1_fifth">Contour light</h1>
+            <p class="p_fifth">In the dark, contour light traces the distinctive design lines of the interior and
+                provides
+                backlight for
+                the three dimensionally lasered quattro badge above the glove compartment – an example for the love of
+                detail at Audi.
+            </p>
+            <img src="6.png" alt="" width="100%">
+        </div>
+        <div class="circle_main circle_black">
+            <label class="circle_3 rotation" onclick="show(4)"><img src="component/cross-largeB.svg" alt="" width="80%"></label>
+        </div>
+        <div class="hidden" style="margin-top: -20px;">
+            <div class="hidden_h1">
+                <h1>Digital precision</h1>
+            </div>
+            <div class="container hidden_content">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="more/8.png" alt="" width="100%">
+                    </div>
+                    <div class="col-6">
+                        <p>Easy-to-understand symbols stand for the digital precision from Audi and for the high level
+                            of integration of architecture and operation. The central element is the top MMI touch
+                            response display. With its black-panel look, it almost dissolves into a large, black surface
+                            when switched off. All elements refer logically to one another, from the flat air vent strip
+                            to the wide console on the center tunnel bearing the tiptronic selector lever All elements
+                            refer logically to one another, from the flat air vent strip to the wide console on the
+                            center tunnel bearing the tiptronic selector lever. In the dark, the contour light traces
+                            the distinctive design lines of the interior and provides backlight for the three
+                            dimensionally lasered quattro badge above the glove compartment – an example for the love of
+                            detail at Audi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden_h1">
+                <h1>Versatile, sporty, elegant: the dimensional and space concept</h1>
+            </div>
+            <div class="container hidden_content">
+                <div class="row">
+                    <div class="col-6">
+                        <p>
+                            The Audi Q8 exudes sporty dynamics and upscale prestige like no other SUV from the brand
+                            with the four rings. 4.99 meters (16.4 ft) long, 2.00 meters (6.6 ft) wide and 1.71 meters
+                            (5.6 ft) tall, the SUV coupe is wider, shorter and lower than its Q7 sister model. With a
+                            wheelbase of nearly 3.00 meters (9.8 ft), it offers a spacious interior that beats of its
+                            direct competitors in most relevant dimensions, including interior length and headroom.
+                            There is a three-seat system in the rear with longitudinally adjusting upon request. With
+                            the seatbacks folded down, the luggage compartment under the power rear hatch holds up to
+                            1,755 liters (62.0 cu ft).</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="more/9.webp" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="hidden_h1">
+                <h1>Bang & Olufsen Premium Sound System</h1>
+            </div>
+            <div class="container hidden_content">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="more/10.webp" alt="" width="100%">
+                    </div>
+                    <div class="col-6">
+                        <p>
+                            The Bang & Olufsen Premium Sound System delivers fascinating 3D sound with height
+                            information to all five seats. The music unfolds exactly how it was recorded in the concert
+                            hall.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more_exterior" style="text-align: center; background-color: black;">
+
+            <span style="color: white;">More about operating concept</span>
+        </div>
+        <!-- หัวข้อที่ 6 -->
+        <div class="fifth">
+            <h1 class="h1_fifth">Identity: the light</h1>
+            <p class="p_fifth">HD Matrix LED technology illuminates the road.</p>
+            <img src="7.png" alt="" width="100%">
+        </div>
+        <div class="circle_main circle_black">
+            <label class="circle_3 rotation" onclick="show(5)"><img src="component/cross-largeB.svg" alt="" width="80%"></label>
+        </div>
+        <div class="hidden" style="margin-top: -20px;">
+            <div class="hidden_h1">
+                <h1>Fully lit up: the light technology</h1>
+            </div>
+            <div class="container hidden_content">
+
+                <div class="col">
+                    <img src="more/11.webp" alt="" width="100%">
+                </div>
+                <div class="col">
+                    <p>
+                        The HD Matrix LED headlights strip the darkness from the night and provide daylight-like,
+                        precise illumination of the road in both dipped and high beam. Thanks to innovative
+                        technologies, both oncoming and preceding vehicles are not dazzled and traffic signs are not
+                        over-illuminated, while important areas still remain fully lit up.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="more_exterior" style="text-align: center; background-color: black;">
+            <span style="color: white;">More about the lighting technology</span>
+        </div>
+        <!-- หัวข้อที่ 7 -->
+        <div class="fifth">
+            <h1 class="h1_fifth">Tradition meets innovation</h1>
+            <p class="p_fifth">A finale look at the rear end of the new Audi Q8 approves the first impression:
+                The SUV coupe achieves an unobtrusive presence through subtle lines and clear contours
+                , which at the same time symbolizes high quality and dynamism. Expressive design with
+                the features of the original Audi quattro. The new Audi Q8.
+            </p>
+            <img src="8.png" alt="" width="100%">
+        </div>
+    </div>
+    <div class="footer" style="height: 200px; background-color: gray;">
+
+    </div>
+    <script src="slider.js"></script>
+</body>
+
+</html>
