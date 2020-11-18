@@ -115,7 +115,7 @@ h1{
 }
 
 /* slide */
-#data .btn {
+#car1 .btn, #car2 .btn {
     width: 45px;
     height: 45px;
     padding: 6px!important;
@@ -123,56 +123,82 @@ h1{
     transition: none;
 }
 
-#data .btn:hover {
+#car1 .btn:hover, #car2 .btn:hover {
     background-color: rgb(167, 167, 167);
 }
 
-.glider a {
-  transition: transform 1s;
+.glider1 a, .glider2 a {
     color: unset;
     cursor: pointer;
 }
 
-.glider a:hover {
+.glider1 a:hover, .glider2 a:hover {
     font-weight: bold;
 }
-.glider a img:hover {
+.glider1 a img:hover, .glider2 a img:hover {
     transition: .4s;
     transform: scale(1.05);
 }
 
-.glider-next.disabled,
-.glider-prev.disabled {
+.disabled{
     transition: none;
     opacity: 0;
 }
-.glider-prev{
+.glider-prev1, .glider-prev2{
+    border: none;
+    background: none;
     border-right: black 0.5px solid;
-    margin-left: -50px;
+    margin-left: -20px;
+    margin-top: 4px;
+    padding-right: 20px;
     top:0;
     outline: none!important;
-}.glider-next {
+    height: 5em;
+
+}.glider-next1, .glider-next2 {
+    border: none;
+    background: none;
     border-left: black 0.5px solid;
-    margin-right: -50px;
-    top:0;
+    margin-right: -20px;
+    padding-left: 20px;
+    margin-top: 4px;
     outline: none!important;
+    height: 5em;
 }
-#data button {
+#data1 button, #data2 button {
     transform: none;
     width: 70px;
     height: 100px;
 }
-.glider-prev img{
+.glider-prev1 img,.glider-prev2 img{
     margin-right: -25px;
     transform: none;
     width: 50px;
     height: 70px;
 }
-.glider-next img{
+.glider-next1 img, .glider-next2 img{
     margin-left: -25px;
     transform: none;
     width: 50px;
     height: 70px;
+}
+#BMB a .active{
+    border-bottom: 0.3px solid black;
+    color: black!important;
+    cursor: default;
+}
+
+.disable-select {
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+  }
+
+.hide{
+    display: none;
+    height: 0;
+    width: 0;
 }
 
 

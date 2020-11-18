@@ -15,11 +15,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="./Glider.js-master/glider.js"></script>
     <link rel="stylesheet" type="text/css" href="./Glider.js-master/glider.css">
-    <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="font.css">
-
+    <link rel="stylesheet" href="body.css">
 </head>
 
 <body>
@@ -90,22 +88,45 @@
         </section>
 
         <!--Models & Body style-->
-        <section class="m-5">
-            <div class="glider-contain text-center" id="data">
-                <div class="glider">
-                    <!--loop cars-->
+        <section class="m-4 mx-5">
+            <div id="BMB" class="d-flex mb-4" data-toggle="buttons-radio">
+                <a><label id="models" type="button" class="mx-4 text-secondary disable-select active">Models</label></a>
+                <a><label id="body" type="button" class="text-secondary disable-select">Body style</label></a>
+            </div>
+
+            <div class="glider-contain1 text-center" id="slide1">
+                <div class="d-flex">
+                    <button aria-label="Previous" class="glider-prev1"><img
+                            src="./Image+Site/first/arrowl.svg"></button>
+                    <div class="glider1">
+                        <!--loop cars-->
+                    </div>
+                    <button aria-label="Next" class="glider-next1"><img src="./Image+Site/first/arrowr.svg"></button>
                 </div>
-                <button aria-label="Previous" class="glider-prev"><img src="./Image+Site/first/arrowl.svg"
-                        alt=""></button>
-                <button aria-label="Next" class="glider-next"><img src="./Image+Site/first/arrowr.svg" alt=""></button>
 
-
-                <div id="car" class="accordion-group text-center">
+                <div id="car1" class="accordion-group text-center">
                     <!--loop data cars-->
-                    
                 </div>
             </div>
+
+            <div class="glider-contain2 text-center" id="slide2">
+                <div class="d-flex">
+                    <button aria-label="Previous" class="glider-prev2"><img
+                            src="./Image+Site/first/arrowl.svg"></button>
+                    <div class="glider2">
+                        <!--loop cars-->
+                    </div>
+                    <button aria-label="Next" class="glider-next2"><img src="./Image+Site/first/arrowr.svg"></button>
+                </div>
+
+                <div id="car2" class="accordion-group text-center">
+                    <!--loop data cars-->
+
+                </div>
+            </div>
+
         </section>
+        <script src="./Glider.js-master/glider.js"></script>
         <script src="slide.js"></script>
 
 
