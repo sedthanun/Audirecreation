@@ -18,6 +18,22 @@ window.addEventListener('load', function () {
     },
   });
 })
+
+var content = {
+  "name": ["", "With the four rings. 4.99 meters (16.4 ft) long, 2.00 meters (6.6 ft) wide and 1.71 meters (5.6 ft) tall, the SUV coupe is wider, shorter and lower than its Q7 sister model.",
+    "A light strip connects the units at the rear. As in the original Audi quattro, a black surface underlays this strip.",
+    "The Audi Q8 combines the elegance of a four-door luxury coupé with the practical versatility of a large SUV.",
+    "The elegantly sloping roofline terminates in gently inclined D-pillars and rests against the quattro blisters above the wheel arches, which house up to 22-inch wheels.",
+    "On the German market, the Audi Q8 comes standard with the top-of-the-line infotainment system, MMI navigation plus. It includes the Audi connect data transfer module with the LTE Advanced standard and a Wi-Fi hotspot.",
+    "Richly equipped, comprehensively connected and tough enough for off-road duty, it is a confident companion for business and leisure.",
+    "The optional Audi connect key lets the driver lock/unlock the vehicle, and start the engine using a compatible Android smartphone.",
+    "Whether parking, in the city or on long journeys – the Audi Q8 supports its driver in many situations.",
+    "For growing challenges: With “Audi Original Zubehör“, you get proven safety even for the youngest passengers.",
+    "There is a three-seat system in the rear with longitudinally adjusting upon request. With the seatbacks folded down, the luggage compartment under the power rear hatch holds up to 1,755 liters (62.0 cu ft).",
+    "An example of the attention to detail: the entry ledges on the door sills underline the high quality of the Audi Q8."]
+}
+
+
 var count = 0;
 var count_hidden = 0;
 var deg = 0;
@@ -58,7 +74,7 @@ function setValueDown() {
 }
 function typing(number) {
   if (number < 13 && number > 0) {
-    document.getElementsByClassName("p_detail")[0].innerHTML = name[number - 1];
+    document.getElementsByClassName("p_detail")[0].innerHTML = content.name[number - 1];
   }
 }
 function change_image(number) {
