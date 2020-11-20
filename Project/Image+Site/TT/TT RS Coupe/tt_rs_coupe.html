@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TT RS Coupé > TT > Audi Thailand</title>
+    <link rel="icon" href="header_icon.svg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Glider.js-master/glider.js"></script>
+    <link rel="stylesheet" href="tt_rs_coupe.css">
+    <link rel="stylesheet" type="text/css" href="Glider.js-master/glider.css">
+    <link rel="stylesheet" href="font.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <picture><img src="1.webp" alt="" width="100%" class="picture_banner"></picture>
+
+        <div class="top-left">
+            <h1 class="h1_banner">TT RS Coupé</h1>
+        </div>
+    </div>
+    <div class="middle">
+        <h1 class="h1_middle">
+            Ultimate sportiness.
+            The Audi TT RS Coupé.
+        </h1>
+
+        <p class="p_middle">Experience the pinnacle of the TT series from Audi Sport. Tremendous power, captivating
+            design and high driving stability and dynamics – just like a sports car: the Audi TT RS Coupé².
+        </p>
+        <div class="pdf_bar">
+            <div>
+                <a><img src="component/paper.svg" alt="" class="icon"></a>
+                <br><span>Brochure</span>
+            </div>
+            <div>
+                <a><img src="component/paper.svg" alt="" class="icon"></a>
+                <br><span>Price List</span>
+            </div>
+            <div>
+                <a><img src="component/car.svg" alt="" class="icon"></a>
+                <br><span>Dimensions</span>
+            </div>
+            <div>
+                <a><img src="component/test.svg" alt="" class="icon"></a>
+                <br><span>Arrange a Test Drive</span>
+            </div>
+        </div>
+    </div>
+    <div class="picture_showing">
+        <div class="glider-contain" id="data" style="width: 75%;">
+            <div class="glider" style="margin-top: 10px;">
+                <img src="2.1.webp" alt="" class="image_slide_0">
+                <img src="2.2.png" alt="" class="image_slide_0">
+                <img src="2.3.webp" alt="" class="image_slide_0">
+                <img src="2.4.webp" alt="" class="image_slide_0">
+                <img src="2.5.webp" alt="" class="image_slide_0">
+                <img src="2.6.webp" alt="" class="image_slide_0">
+                <img src="2.7.webp" alt="" class="image_slide_0">
+                <img src="2.8.webp" alt="" class="image_slide_0">
+                <img src="2.9.webp" alt="" class="image_slide_0">
+                <img src="2.10.webp" alt="" class="image_slide_0">
+                <img src="2.11.webp" alt="" class="image_slide_0">
+                <img src="2.12.webp" alt="" class="image_slide_0">
+                <img src="2.13.webp" alt="" class="image_slide_0">
+            </div>
+            <label class="circle" onclick="visible()"><img src="component/cross-large.svg" alt="" id="x"></label>
+            <a aria-label="Previous" class="glider-prev" onclick="setValueDown()">
+                <img src="component/arrowl.svg" alt="" width="35%" height="50%"></a>
+            <a aria-label="Next" class="glider-next" onclick="setValueUp()">
+                <img src="component/arrowr.svg" alt="" width="35%" height="50%">
+            </a>
+
+        </div>
+        <div class="glider-contain" id="data" style="width: 75%;">
+            <div class="glider" style="margin-top: 10px;">
+                <img src="2.1.webp" alt="" class="image_slide">
+                <img src="2.2.png" alt="" class="image_slide">
+                <img src="2.3.webp" alt="" class="image_slide">
+                <img src="2.4.webp" alt="" class="image_slide">
+                <img src="2.5.webp" alt="" class="image_slide">
+                <img src="2.6.webp" alt="" class="image_slide_0">
+                <img src="2.7.webp" alt="" class="image_slide_0">
+                <img src="2.8.webp" alt="" class="image_slide_0">
+                <img src="2.9.webp" alt="" class="image_slide_0">
+                <img src="2.10.webp" alt="" class="image_slide_0">
+                <img src="2.11.webp" alt="" class="image_slide_0">
+                <img src="2.12.webp" alt="" class="image_slide_0">
+                <img src="2.13.webp" alt="" class="image_slide_0">
+
+            </div>
+            <div class="button_1">
+                <a aria-label="Previous" class="glider-prev_1">
+                    <img src="component/arrowlB.svg" alt="" width="20%" height="50%"></a>
+                <a aria-label="Next" class="glider-next_1">
+                    <img src="component/arrowrB.svg" alt="" width="20%" height="50%">
+                </a>
+            </div>
+            <div class="p_hidden">
+                <p class="p_detail"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="score">
+        <img src="score.png" alt="" width="100%">
+    </div>
+
+    <div class="black">
+        <div class="left prior">
+            <h1 class="h1_left prior" style="padding-top: 3em; margin-bottom: 1em;">High-level performance</h1>
+
+            <p class="p_left prior">The heart of the Audi TT RS Coupé is up front: the 2.5-litre TFSI-series 5-cylinder
+                engine with 294 kW (400 hp) of power and 480 Nm of torque, you will pass the acceleration test of 0 to
+                100 km/h in 3.7 seconds with the top speed is 250 km/h. The standard 7-speed S tronic and the quattro
+                permanent all-wheel drive with TT RS-specific tuning are part and parcel of these top performance specs.
+            </p>
+        </div>
+
+        <div class="picture_black_sec">
+            <img src="3.webp" alt="" width="100%">
+        </div>
+
+
+        <div class="circle_main circle_black">
+            <label class="circle_3 rotation" onclick="show(1)"><img src="component/cross-largeB.svg" alt=""
+                    width="80%"></label>
+        </div>
+        <div class="hidden">
+            <div class="hidden_h1">
+                <h1>Guaranteed goosebumps</h1>
+            </div>
+            <div class="container hidden_content">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="more/1.png" alt="" width="100%">
+                    </div>
+                    <div class="col-6">
+                        <p style="color: white; width: 90%;">The Audi TT RS Coupé achieves its emphatic performance
+                            thanks primarily to our 2.5-litre TFSI engine with 294 kW (400 hp). Through the
+                            1-2-4-5-3
+                            ignition sequence, which involves directly neighbouring cylinders and far apart ones
+                            igniting in alternation, our multi-prize winning engine emits an unmistakeable sound.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden_h1">
+                <h1>RS-specific elements</h1>
+            </div>
+            <div class="container hidden_content">
+                <div class="row">
+                    <div class="col-6">
+                        <p style="color: white; width: 90%;">In the Audi TT RS Coupé, the sport suspension enhances the
+                            sporty driving characteristics. The Audi magnetic ride system continuously adjusts how the
+                            shock absorbers work to suit the road surface and your personal driving style. The fixed RS
+                            rear wing increases the contact pressure for better grip. With the standard RS
+                            high-performance brake system, deceleration is extremely precise.
+                        </p>
+                    </div>
+                    <div class="col-6" style="padding: 0px;">
+                        <img src="more/2.webp" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more_exterior" style="text-align: center; background-color: black;">
+            <span style="color: white;">More about drive & driving dynamics</span>
+        </div>
+
+        <div class="left prior">
+            <h1 class="h1_left prior" style="padding-top: 3em; margin-bottom: 1em;">Compelling confidence</h1>
+
+            <p class="p_left prior" style="width: 40%;">At the front, the most striking feature of the TT RS Coupé² is
+                the Audi Singleframe
+                with a radiator protective grille in a gloss black honeycomb structure and a matt aluminium-look frame.
+                A large quattro logo is emblazoned in the lower section. An impressive feature on the side is the
+                widened sill with a gloss black inlay. Enjoy the full-throated sound of the RS exhaust system with oval
+                tailpipe trims. The visual features at the rear are rounded off by the gloss black diffuser insert.
+            </p>
+        </div>
+
+        <div class="picture_black_sec scale" style="margin-top: 4em;">
+            <img src="4.webp" alt="" width="100%">
+        </div>
+
+        <div class="left prior">
+            <h1 class="h1_left prior" style="padding-top: 3em; margin-bottom: 1em;">Dramatic lighting</h1>
+
+            <p class="p_left prior" style="width: 50%;">At the rear of the Audi TT RS Coupé, Audi Matrix OLED rear
+                lights are a captivating sight. When switched on, the four wafer-thin lighting elements complete a full
+                animation. At the front, we offer headlights with LED or Matrix LED technology on request. You no longer
+                need to constantly turn your high beams on and off when driving at night. Instead, a control unit turns
+                individual diodes on and off in response to different driving situations.
+            </p>
+        </div>
+
+        <div class="picture_black_sec" style="margin-top: 4em;">
+            <img src="5.webp" alt="" width="100%">
+        </div>
+    </div>
+
+    <div class="left ">
+        <h1 class="h1_left " style="padding-top: 3em; margin-bottom: 1em;">RS in focus</h1>
+
+        <p class="p_left" style="width: 39.5%;">The basic version of the Audi TT RS Coupé² includes numerous
+            RS-specific interior features such as the RS sport leather steering wheel with multifunction plus, which is
+            flattened at the bottom. You select the gearshift setting using the RS selector lever in the centre console.
+            The door sill trims with aluminium inlay and TT RS logo, the stainless steel pedals and the RS embossing on
+            the front seat backrests are also included as standard.
+        </p>
+    </div>
+
+    <div class="picture_black_sec scale" style="margin-top: 4em;">
+        <img src="6.webp" alt="" width="100%">
+    </div>
+
+    <div class="left">
+        <h1 class="h1_left" style="padding-top: 3em; margin-bottom: 1em;">Intuitive to operate</h1>
+
+        <p class="p_left" style="width: 53%;">When it comes to infotainment, MMI Navigation plus with MMI touch,
+            which you control using the high-precision locking rotary/push button beneath the gear lever. The interface
+            recognises your handwriting: You can input characters and scroll and zoom with your fingers. Alternatively,
+            you can control the MMI using the voice control system.
+    </div>
+
+    <div class="picture_black_sec" style="margin-top: 4em;">
+        <img src="7.webp" alt="" width="100%">
+    </div>
+
+    <div class="circle_main">
+        <label class="circle_2 rotation" onclick="show(2)"><img src="component/cross-large.svg" alt=""
+                width="80%"></label>
+    </div>
+    <div class="hidden">
+        <div class="hidden_h1">
+            <h1>Everything at a glance</h1>
+        </div>
+        <div class="container hidden_content">
+            <div class="row">
+                <div class="col-6">
+                    <img src="more/3.webp" alt="" width="100%">
+                </div>
+                <div class="col-6">
+                    <p style="color: white; width: 90%;">The standard, fully digital Audi virtual cockpit instrument
+                        cluster in the Audi TT RS Coupé² displays RS-specific content among other features. On the G
+                        meter, you can see the forces that arise while cornering, braking or accelerating. The shift
+                        light indicates that the speed limit in the respective gear has been reached.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="hidden_h1">
+            <h1>High-quality sound</h1>
+        </div>
+        <div class="container hidden_content">
+            <div class="row">
+                <div class="col-6">
+                    <p style="color: white; width: 90%;">Bang & Olufsen Sound System in the Audi TT RS Coupé
+                        In the interior of the Audi TT RS Coupé², the Bang & Olufsen Premium Sound System creates an
+                        exceptional sound experience thanks to an amplifier with a total output of 680 watts and twelve
+                        high-performance loudspeakers. A microphone detects driving and background noises and adjusts
+                        the sound accordingly. Visually, the exclusive loudspeaker covers with aluminium trim and the
+                        LED accent lighting on the front subwoofers perfectly complement the high-quality interior of
+                        your Audi TT RS Coupé².
+                    </p>
+                </div>
+                <div class="col-6" style="padding: 0px;">
+                    <img src="more/4.webp" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="more_exterior" style="text-align: center;">
+        <span>More about Infotainment</span>
+    </div>
+
+    <div class="left">
+        <h1 class="h1_left" style="padding-top: 3em; margin-bottom: 1em;">Top athlete</h1>
+
+        <p class="p_left" style="width:53%;">High-powered sprints and long-distance stamina – the Audi TT RS Coupé²
+            excels in many disciplines. Its athletic appearance makes it a true champion.
+    </div>
+
+    <div class="picture_black_sec" style="margin-top: 4em;">
+        <img src="8.webp" alt="" width="100%">
+    </div>
+
+    <div class="notes">
+        <p class="dot">1</p>
+        <p>eec-global-disclaimer.</p>
+    </div>
+    <div class="notes">
+        <p class="dot">2</p>
+        <p>	Fuel consumption combined¹: 8.0–7.9 l/100 km; CO₂ emissions combined¹: 181 g/km.</p>
+    </div>
+
+    <div class="footer" style="height: 200px; background-color: gray;">
+
+    </div>
+    <script src="tt_rs_coupe.js"></script>
+</body>
+
+</html>
