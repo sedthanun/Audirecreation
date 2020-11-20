@@ -127,15 +127,15 @@ h1{
     background-color: rgb(167, 167, 167);
 }
 
-.glider1 a, .glider2 a {
+.glider1 a, .glider2 a, .set-0 a{
     color: unset;
     cursor: pointer;
 }
 
-.glider1 a:hover, .glider2 a:hover {
+.glider1 a:hover, .glider2 a:hover, .set-0 a:hover{
     font-weight: bold;
 }
-.glider1 a img:hover, .glider2 a img:hover {
+.glider1 a img:hover, .glider2 a img:hover, .set-0 a img:hover{
     transition: .4s;
     transform: scale(1.05);
 }
@@ -201,6 +201,12 @@ h1{
     width: 0;
 }
 
+.w-50{
+    width: 220px!important;
+}
+.glider-slide{
+    min-width: 220px;
+}
 
 /* navber */
 nav ul{
