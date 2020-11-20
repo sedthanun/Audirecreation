@@ -6,15 +6,14 @@
     max-height: 650px;
     object-fit: cover;
 }
-.top-left {
+.bottom-left {
     position: absolute;
-    top: 42px;
+    top: 580px;
     left: 60px;
-    
+    color: #fff;
 }
 .h1_banner{
     font-size: 36px;
-    color: white
 }
 .pdf_bar{
     display: flex;
@@ -28,33 +27,25 @@
     margin-right: 40px;
     cursor: pointer;
 }
-.first{
+.middle{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.p_first{
+.p_middle{
     text-align: center; 
     width: 60%;
     margin:0 auto;
     font-size: 16.5px;
     margin-bottom: 42px;    
 }
-.h1_first{
+.h1_middle{
     font-size: 56px;
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-}
-.h1_power{
-    font-size: 56px;
-    margin-bottom: 20px;
-    margin-top: 3em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
+    width: 80%;
 }
 .picture_showing{
     display: flex;
@@ -89,7 +80,6 @@
     position: absolute;
     top: 10px;
     opacity: 0;
-    
 }
 .picture_bar{
     margin-bottom: 2em;
@@ -102,10 +92,11 @@
     font-size: 14px;
 }
 .picture_black_first{
-    margin-bottom: 1em;
+    margin-bottom: 10em;
+    margin-top: 10em;
 }
 
-.p_second{
+.p_left{
     
     width: 60%;
     /* margin:0 auto; */
@@ -113,7 +104,7 @@
     margin-bottom: 42px;   
     margin-left: 10em; 
 }
-.h1_second{
+.h1_left{
     font-size: 2rem;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -198,8 +189,8 @@
     color: gray;
 }
 .View_active{
-    color: black;
-    border-bottom: 2px solid black;
+    color: white;
+    border-bottom: 2px solid white;
 }
 .more_exterior{
     margin-bottom: 5em;
@@ -218,12 +209,12 @@
     transition-duration: .5s;
 }
 
-.h1_first_black{
+.h1_middle_black{
     width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
-.p_first_black{
+.p_middle_black{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -257,9 +248,4 @@
     margin-left: 7%;
     margin-bottom: 5em;
     font-size: 14px;
-}
-.boxs{
-    margin-top: 40%;
-    margin-bottom: auto;
-    padding-left: 10%;
 }
