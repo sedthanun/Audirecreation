@@ -1,13 +1,15 @@
+//js ของตัวแสดงรูปภาพ
 new Glider(document.querySelectorAll('.glider')[0], {
   slidesToShow: 1,
   draggable: true,
+  dots: '#dots',
   arrows: {
     prev: '.glider-prev',
     next: '.glider-next'
   }
 });
 
-//glider function
+//js ของสไลด์์รูปภาพ
 window.addEventListener('load', function () {
   new Glider(document.querySelectorAll('.glider')[1], {
     slidesToShow: 7.1,
@@ -19,6 +21,7 @@ window.addEventListener('load', function () {
   });
 })
 
+//ข้อความ
 var content = {
   "name": ["", "With the four rings. 4.99 meters (16.4 ft) long, 2.00 meters (6.6 ft) wide and 1.71 meters (5.6 ft) tall, the SUV coupe is wider, shorter and lower than its Q7 sister model.",
     "A light strip connects the units at the rear. As in the original Audi quattro, a black surface underlays this strip.",
@@ -39,7 +42,7 @@ var count_hidden = 0;
 var deg = 0;
 var deg_hidden = 45;
 var value = 1;
-
+//ฟังก์ชันปุ่มของตัวแสดงภาพ
 function visible() {
   if (count == 0) {
     deg += 45;
@@ -60,23 +63,27 @@ function visible() {
     count = 0;
   }
 }
+//ฟังก์ชันเมื่อกดปุ่มขวา
 function setValueUp() {
   if (value < 12 && value > 0) {
     value += 1;
     typing(value);
   }
 }
+//ฟังก์ชันเมื่อกดปุ่มซ้าย
 function setValueDown() {
   if (value < 13 && value > 1) {
     value -= 1;
     typing(value);
   }
 }
+//ฟังก์ชันเปลี่ยนรายละเอียดของรูปภาพเมื่อมีการกดปุ่มซ้าย-ขวา
 function typing(number) {
   if (number < 13 && number > 0) {
     document.getElementsByClassName("p_detail")[0].innerHTML = content.name[number - 1];
   }
 }
+//ฟังก์ชันในการเลือกรูปภาพ
 function change_image(number) {
   if (number == 1) {
     document.getElementsByClassName("picture_exterior")[0].src = "3.1.webp";
@@ -91,6 +98,7 @@ function change_image(number) {
     checking_active(number);
   }
 }
+//ฟังก์ชันในการเปลี่ยนstyleของตัวเลือกภาพ
 function checking_active(number) {
   if (number == 1) {
     document.querySelectorAll('.View')[0].classList.add('View_active');
@@ -120,6 +128,7 @@ function checking_active(number) {
     }
   }
 }
+//ฟังก์ชันเมื่อกดปุ่ม+ในบริเวณmore
 function show(number) {
   if (count_hidden == 0) {
     deg_hidden -= 45;
