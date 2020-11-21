@@ -308,6 +308,12 @@ nav li:nth-child(16){
 .xbutton{
     border: 0;
     background-color: white;
-
 }
- 
+
+.pic-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.pic-menu:hover{
+    background-color:whitesmoke;
+}
