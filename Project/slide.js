@@ -102,7 +102,7 @@ for (let i = 1; i <= 13; i++) {
 //Body style
 for (let a = 1; a <= 7; a++) {
     eCar2.innerHTML +=
-        "<a id='body" + a + "' class='mr-5' onclick='bclosing(" + a + ")' data-toggle='collapse' data-target='#bdata" + a + "' aria-controls='bbody" + a + "'\
+        "<a id='body" + a + "' class='' onclick='bclosing(" + a + ")' data-toggle='collapse' data-target='#bdata" + a + "' aria-controls='bbody" + a + "'\
     ria-expanded='false' data-parent='#slide2'>\
     <img id='bpic"+ a + "' src='./Image+Site/first/data/body/" + a + ".1.jpeg' alt=''><p>" + bs["name"][a - 1] + "</p></a>";
 
@@ -174,7 +174,6 @@ me.addEventListener('click', () => {
         me.classList.add('active')
         document.getElementsByClassName('glider-contain1')[0].classList.remove("hide");
         document.getElementsByClassName('glider-contain2')[0].classList.add("hide");
-
     }
 })
 
@@ -187,7 +186,6 @@ be.addEventListener('click', () => {
         be.classList.add('active')
         document.getElementsByClassName('glider-contain2')[0].classList.remove("hide");
         document.getElementsByClassName('glider-contain1')[0].classList.add("hide");
-
     }
 })
 
