@@ -27,23 +27,64 @@
             <ul class="nav-link">
                 <li><a href="#home"><span><i class="fas fa-bars"></i>&nbsp;Menu</span></a>
                     <div class="menu-sub">
-                        <ul>
-                            <li><a href="#a1sportback">Home</a></li><br>
-                            <li><a href="#a1sportback">Model Overview</a></li><br>
-                            <li><a href="#a1sportback">Contact&Service</a></li>
-                        </ul>
+                        <div class="row p-5">
+                        <div class="col-2 mr-4">
+                            <ul>
+                                <li><a class="font-weight-bold" href="#a1sportback">Home</a></li><br><br>
+                                
+                                <li><a class="font-weight-bold" href="#a1sportback">Model Overview</a></li><br>
+                                <img src='Image+Site/Navbar/audi menu.png' width='250'>
+                                <li><a class="icon mail" href="#a1sportback">&nbsp;Contact&Service</a></li>
+                            </ul>
+                        </div>
+                        <div class="ml-5 col-3">
+                            <ul>
+                                <li><a class="font-weight-bold" href="#a1sportback">Service & Accessories</a></li>
+                                <li><a href="#a1sportback">Audi Service Center ></a></li>
+                                <li><a href="#aaa">Audi Genuine Parts and Accessories ></a></li>
+                                <li><a href="#aaa">Audi Warranty ></a></li>
+                                <li><a href="#aaa">Audi Roadside Assistance ></a></li>
+                                <li><a href="#aaa">Service Appointment ></a></li>
+                            </ul>
+                        </div>
+                        <div class="ml-3 col-3">
+                            <ul>
+                                <li><a class="font-weight-bold" href="#a1sportback">Innovation</a></li>
+                                <li><a href="#a1sportback">Vorsprung dursh Technik ></a></li>
+                                <li><a href="Image+Site/Q8/New Q8/q8.html" class="square">Audi Sport ></a></li><br>
+                                <li><a href="#a1sportback">Audi quattro ></a></li>
+                            </ul>
+                        </div>
+                    
+    
+                        <div class="col-3">
+                            <ul>
+                                <li><a class="icon drive" href="#a1sportback">&nbsp;Request Test Drive</a></li>
+                                
+                            </ul>
+                        </div>
+                        <button class="bottom-right">X</button>
                     </div>
+                </div>
                 </li>
                 <li><a href="#news">A1</a>
                     <div class="menu-sub">
+                        <div class="row p-5">
+                        <div class="col-4">
                         <ul>
-                            <li><a href="#a1sportback">A1 Sport Back</a></li>
+                            <hr class="w-10">
+                            <li><a href="#a1sportback">A1 Sport Back<span><img src='Image+Site/first/2.1.1.png' width='70'></span></a></li>
+                            <hr class="w-10">
                         </ul>
-                        <img src='Image+Site/A1/1.jpg' width='500'>
-                        <h1>A1 Sport Back</h1>
-                        <p>Spacious, sporty, emotive.<br>
-                            The new Audi A1 Sportback.
-                        </p>
+                    </div>
+                        <div class="col-6">
+                            <img src="Image+Site/Navbar/a1.png" width="700">
+                            <a href="#a1" class="h1">A1 Sportback></a>
+                            <p>Spacious, sporty, emotive.<br>
+                                The new Audi A1 Sportback.</p>
+
+                        </div>
+                    </div>
                     </div>
                 </li>
                 <li><a href="#contact">A2</a>
@@ -61,7 +102,7 @@
                 <li><a href="#about">Q3</a></li>
                 <li><a href="#about">Q5</a></li>
                 <li><a href="#about">Q7</a></li>
-                <li><a href="#about">Q8</a></li>
+                <li><a href="Image+Site/Q8/New Q8/q8.html">Q8</a></li>
                 <li><a href="#about">TT</a></li>
                 <li><a href="#about" class="square">RS</a></li>
                 <li><a href="#about">e-tron</a></li>
@@ -74,6 +115,9 @@
             $("nav li").click(function () {
                 $(this).siblings().removeClass('open');
                 $(this).toggleClass("open")
+            });
+            $("xbutton").click(function () {
+                $("nav li").siblings().removeClass('open');
             });
         </script>
 

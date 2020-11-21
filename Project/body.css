@@ -215,7 +215,7 @@ nav ul{
     float: left;
     list-style: none;
     position: relative;
-    text-align: center;
+    
 
 }
 
@@ -224,7 +224,7 @@ nav ul{
 nav li {
     display: inline-block;
     padding: 0px 12px;
-    text-align: center;
+
 }
 
 nav a{
@@ -260,7 +260,7 @@ nav{
     overflow: hidden;
     width: 100%;
     height: 0;
-    max-height: 450px;
+    max-height: 550px;
     position: absolute;
     left: 0;
     top: -1.5rem;
@@ -269,7 +269,7 @@ nav{
 }
  
 nav li.open .menu-sub{
-    height: 450px;
+    height: 550px;
     margin: 0px;
 }
 nav li:nth-child(16){
@@ -284,3 +284,30 @@ nav li:nth-child(16){
     background: red;
     transform: skew(-30deg);
 }
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.mail::before {
+    font-family: "Font Awesome 5 Free"; font-weight: normal; content: "\f0e0";
+  }
+.drive::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f1b9";
+  }
+
+.bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+.xbutton{
+    border: 0;
+    background-color: white;
+
+}
+ 
