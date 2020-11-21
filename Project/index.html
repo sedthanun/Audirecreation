@@ -66,6 +66,7 @@
                             
                             
                         </div>
+                        <button class="bottom-right">X</button>
                     </div>
                 </li>
                 <li><a href="#A1">A1</a>
@@ -463,9 +464,10 @@
                     <input type="text" class="form-control" placeholder="Search term">
                 </div>
                 <div class="col-2">
-                    <button class="btn btn-dark">Search</button>
+                    <button class="btn btn-dark"><i class="fas fa-search"></i></button>
                 </div>
                 </div>
+                <button class="bottom-right">X</button>
                 </div>
                 </li>
                 <li class="ml-10"><img border="0" alt="Audi" src='audi.png' width='70'></li>
@@ -477,9 +479,7 @@
                 $(this).siblings().removeClass('open');
                 $(this).toggleClass("open")
             });
-            $("xbutton").click(function () {
-                $("nav li").siblings().removeClass('open');
-            });
+
         </script>
 
 

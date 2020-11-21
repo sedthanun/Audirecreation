@@ -345,10 +345,14 @@ nav li:nth-child(17){
     position: absolute;
     bottom: 0;
     right: 0;
+    background-color: unset;
+    border:0;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    font-size: 18pt;
   }
-.xbutton{
-    border: 0;
-    background-color: white;
+.bottom-right:hover{
+    text-decoration: none;
 }
 
 .pic-menu{
