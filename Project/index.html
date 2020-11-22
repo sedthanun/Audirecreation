@@ -458,7 +458,7 @@
                     </li>
                 <li><a href="#about"><span><i class="fas fa-search"></i>&nbsp;Search</span></a>
                 <div class="menu-search">
-                    <form>
+                <form>
                     <div class="row p-4">
                         <div class="col-4">
                             <div class="input-group">
@@ -468,15 +468,12 @@
                                 </button>
                             </div>
                 </div>
+               </form>
                 <div class="col-3">
                     <button class="search-btn px-auto"><i class="fas fa-search"></i></button>
                 </div>
-                <button class="x-btn">X</button>
-            </form>
+                <button id="x-btn" class="x-btn">X</button>
             <p id="search"></p>
-            <script>
-                
-            </script>
                 </div>
                 </li>
                 <li><img border="0" alt="Audi" src='audi.png' width='70'></li>
@@ -490,13 +487,9 @@
                 $(this).toggleClass("open")
             });
 
-            $("nav li form").click(function (e) {
+            $("form").click(function (e) {
                 e.stopPropagation();
             });
-            $("nav li x-btn").click(function (e) {
-                $(this).siblings().removeClass('open');
-            });
-            
 
         </script>
 

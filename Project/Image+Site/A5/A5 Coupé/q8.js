@@ -65,15 +65,11 @@ function typing(number) {
 //ฟังก์ชันในการเลือกรูปภาพ
 function change_image(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[0].src = "3.1.webp";
+    document.getElementsByClassName("picture_exterior")[0].src = "4.1.png";
     checking_active(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[0].src = "3.2.webp";
-    checking_active(number);
-  }
-  else if (number == 3) {
-    document.getElementsByClassName("picture_exterior")[0].src = "3.3.webp";
+    document.getElementsByClassName("picture_exterior")[0].src = "4.2.webp";
     checking_active(number);
   }
 }
