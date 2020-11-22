@@ -1,6 +1,12 @@
 .banner{
     margin-bottom: 50px;
 }
+.top-left {
+    position: absolute;
+    top: 42px;
+    left: 60px;
+    
+}
 .bottom-left {
     position: absolute;
     top: 520px;
@@ -137,7 +143,8 @@
     padding-bottom: 5em;
 }
 .hidden_h1{
-    margin-left: 20%;
+    margin-left: 0;
+    margin-right: 30em;
     margin-bottom: 5em;
 }
 .hidden_content{

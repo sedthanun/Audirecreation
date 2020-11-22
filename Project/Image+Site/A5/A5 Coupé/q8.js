@@ -1,25 +1,4 @@
-//js ของตัวแสดงรูปภาพ
-new Glider(document.querySelectorAll('.glider')[0], {
-  slidesToShow: 1,
-  draggable: true,
-  dots: '#dots',
-  arrows: {
-    prev: '.glider-prev',
-    next: '.glider-next'
-  }
-});
 
-//js ของสไลด์์รูปภาพ
-window.addEventListener('load', function () {
-  new Glider(document.querySelectorAll('.glider')[1], {
-    slidesToShow: 7.1,
-    slidesToScroll: 7,
-    arrows: {
-      prev: '.glider-prev_1',
-      next: '.glider-next_1'
-    },
-  });
-})
 
 //ข้อความ
 var content = {
