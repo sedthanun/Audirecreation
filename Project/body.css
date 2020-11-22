@@ -342,17 +342,15 @@ nav li:nth-child(17){
   }
 
 .bottom-right{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: unset;
-    border:0;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
-    font-size: 18pt;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
   }
-.bottom-right:hover{
-    text-decoration: none;
+
+.x-btn{
+    border: unset;
+    background-color: unset;
 }
 
 .pic-menu{
@@ -361,4 +359,18 @@ nav li:nth-child(17){
 }
 .pic-menu:hover{
     background-color:whitesmoke;
+}
+
+.search-btn{
+    border: unset;
+    color: white;
+    background-color: black;
+    margin-top: 1px;
+    padding: 7px;
+    margin-left: 0px;
+   
+}
+
+button:focus{
+    outline: 0;
 }

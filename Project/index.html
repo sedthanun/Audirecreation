@@ -66,7 +66,7 @@
                             
                             
                         </div>
-                        <button class="bottom-right">X</button>
+                        <button class="x-btn bottom-right">X</button>
                     </div>
                 </li>
                 <li><a href="#A1">A1</a>
@@ -90,7 +90,7 @@
 
                             </div>
                        
-                        
+                        <button class="x-btn bottom-right">X</button>
                     </div>
                 </li>
                 <li><a href="#contact">A4</a>
@@ -130,8 +130,7 @@
                                 </p>
 
                             </div>
-                       
-                        
+                            <button class="bottom-right x-btn">X</button>
                     </div>
                 </li>
                 <li><a href="#about">A5</a>
@@ -163,7 +162,7 @@
 
                             </div>
                         
-                        
+                            <button class="x-btn bottom-right">X</button>
                     </div></li>
                 <li><a href="#contact">A6</a> <div class="menu-sub">
                     <div class="row p-5">
@@ -192,7 +191,7 @@
 
                         </div>
                     </div>
-                    
+                    <button class="x-btn bottom-right">X</button>
                 </div></li>
                 <li><a href="#about">A7</a><div class="menu-sub">
                     <div class="row p-5">
@@ -214,7 +213,7 @@
 
                         </div>
                     
-                        <button class="bottom-right">X</button>
+                        <button class="x-btn bottom-right">X</button>
                 </div></li>
                 <li><a href="#about">A8</a><div class="menu-sub">
                     <div class="row p-5">
@@ -236,7 +235,7 @@
 
                         </div>
                     
-                        <button class="bottom-right">X</button>
+                        <button class="x-btn bottom-right">X</button>
                 </div></li>
                 <li><a href="#contact">Q2</a><div class="menu-sub">
                     <div class="row p-5">
@@ -258,7 +257,7 @@
 
                         </div>
                     </div>
-                    <button class="bottom-right">X</button>
+                    <button class="x-btn bottom-right">X</button>
                 </div></li>
                 <li><a href="#about">Q3</a><div class="menu-sub">
                     <div class="row p-5">
@@ -286,7 +285,7 @@
 
                         </div>
                     
-                    
+                        <button class="x-btn bottom-right">X</button>
                 </div></li>
                 <li><a href="#about">Q5</a><div class="menu-sub">
                     <div class="row p-5">
@@ -307,7 +306,7 @@
 
                         </div>
                     
-                    
+                        <button class="x-btn bottom-right">X</button>
                 </div></li>
                 <li><a href="#about">Q7</a><div class="menu-sub">
                     <div class="row p-5">
@@ -329,7 +328,7 @@
 
                         </div>
                     </div>
-                    
+                    <button class="x-btn bottom-right">X</button>
                 </div></li>
                 <li><a href="#about">Q8</a><div class="menu-sub">
                     <div class="row p-5">
@@ -356,7 +355,7 @@
                             <p id="car_spec5">The new face of the Q family.</p>
                         </div>
                     
-                    
+                        <button class="x-btn bottom-right">X</button>
                 </div></li>
                 <li><a href="#about">TT</a><div class="menu-sub">
                     <div class="row p-5">
@@ -391,7 +390,7 @@
 
                         </div>
                     
-                    
+                        <button class="x-btn bottom-right">X</button>
                 </div></li>
                 <li><a href="#about" class="square">RS</a><div class="menu-sub">
                     <div class="row p-5">
@@ -426,7 +425,7 @@
 
                         </div>
                     </div>
-                    <button class="bottom-right">X</button>
+                    <button class="x-btn bottom-right">X</button>
                 </div></li>
                 <li><a href="#about">e-tron</a><div class="menu-sub">
                     <div class="row p-5">
@@ -454,7 +453,7 @@
                             <p id="car_spec8">Shaping the future. The Audi e-tron.</p>
 
                         </div>
-                        
+                        <button class="x-btn bottom-right">X</button>
                     </div>
                     </li>
                 <li><a href="#about"><span><i class="fas fa-search"></i>&nbsp;Search</span></a>
@@ -463,15 +462,15 @@
                         <div class="col-4">
                     <input type="text" class="form-control" placeholder="Search term">
                 </div>
-                <div class="col-2">
-                    <button class="btn btn-dark"><i class="fas fa-search"></i></button>
+                <div class="col-3">
+                    <button class="search-btn px-auto"><i class="fas fa-search"></i></button>
                 </div>
-                </div>
-                <button class="bottom-right">X</button>
+                <button class="x-btn">X</button>
                 </div>
                 </li>
-                <li class="ml-10"><img border="0" alt="Audi" src='audi.png' width='70'></li>
+                <li><img border="0" alt="Audi" src='audi.png' width='70'></li>
             </ul>
+        </div>
 
         </nav>
         <script>
@@ -479,6 +478,14 @@
                 $(this).siblings().removeClass('open');
                 $(this).toggleClass("open")
             });
+
+            $("nav li input").click(function (e) {
+                e.stopPropagation();
+            });
+            $("nav li x-btn").click(function (e) {
+                $(this).siblings().removeClass('open');
+            });
+            
 
         </script>
 
