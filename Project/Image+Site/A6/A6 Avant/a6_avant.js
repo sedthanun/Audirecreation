@@ -22,18 +22,7 @@ window.addEventListener('load', function () {
 })
 
 //ข้อความ
-var content = {
-  "name": ["With tense surfaces, sharp edges and striking lines, the executive sedan broadcasts its character in an unmistakable fashion.", 
-          "The A6 Sedan is an expressive ambassador for the new Audi design language.",
-          "Unlocking, locking and starting the engine via an Android smartphone – the Audi connect key replaces, on request, the conventional vehicle key and makes handling the A6 Sedan even more convenient.",
-          "The short boot lid ends with a curved spoiler for optimised aerodynamics and the final visual touch.",
-          "Long bonnet, long wheelbase, short overhangs. The Audi A6 Sedan is characterised by well-balanced proportions and refined sportiness.",
-          "Pure dynamics: powerfully tensed contours stretch across the wheels and hint to Audi's quattro inheritance.",
-          "Breaking out, discovering new things, seeing the world with fresh eyes: this is a longing which many people share and we, as a brand, take up.",
-          "Even more comfort, authority and safety on long and short journeys – the A6 Sedan sets new standards for the luxury class, with new and refined driver assistance systems.",
-          "The wide, deep-positioned single-frame grill, the flat headlights and the powerfully contoured air intakes radiate a sporty look.",
-          "More space for more: The new Audi A6 Sedan offers more legroom in the rear than its predecessor with the same boot volume of 530 litres.",]
-}
+var content = {"name": ["", "", "", "", "", "", "", "", ""]}
 
 
 var count = 0;
@@ -141,10 +130,11 @@ function show(number) {
     document.getElementsByClassName('hidden')[number - 1].style.height = "100%";
     document.getElementsByClassName("rotation")[number - 1].style.transform = "rotate(" + deg_hidden + "deg)";
     document.getElementsByClassName('more_exterior')[number - 1].style.opacity = "0";
+    document.getElementsByClassName('more_exterior')[number - 1].style.height = "0px";
     count_hidden = 1;
-    if (number >= 3) {
+    /* if (number >= 3) {
       document.getElementsByClassName("circle_main")[number - 1].style.backgroundColor = "rgb(76,76,76)";
-    }
+    } */
   }
   else if (count_hidden == 1) {
     deg_hidden += 45;
@@ -152,10 +142,12 @@ function show(number) {
     document.getElementsByClassName('hidden')[number - 1].style.height = "0%";
     document.getElementsByClassName("rotation")[number - 1].style.transform = "rotate(" + deg_hidden + "deg)";
     document.getElementsByClassName('more_exterior')[number - 1].style.opacity = "1";
+    document.getElementsByClassName('more_exterior')[number - 1].style.height = "24px";
+
     count_hidden = 0;
-    if (number >= 3) {
+    /* if (number >= 3) {
       document.getElementsByClassName("circle_main")[number - 1].style.backgroundColor = "rgb(0,0,0)";
-    }
+    } */
   }
 
 }

@@ -45,7 +45,7 @@
   opacity: 0;
   height: 0;
 }
-.glider-prev,.glider-next {
+.glider-prev,.glider-next,.glider-next_1,.glider-prev_1 {
   user-select: none;
   position: absolute;
   outline: none;
@@ -70,13 +70,33 @@
 .glider-next:focus {
   color: #a89cc8;
 }
-.glider-next {
-  right: -23px;
-  left: auto;
+.glider-prev{
+  top: 300px;
+  right: auto;
+  left: -15px;
 }
+.glider-prev_1{
+  top: 85px;
+  right: auto;
+  left: -15px;
+}
+
+.glider-next {
+  right: -110px;
+  left: auto;
+  top: 300px;
+  
+}
+.glider-next_1 {
+  right: -130px;
+  left: auto;
+  top: 85px;
+  
+}
+
 .glider-next.disabled,
-.glider-prev.disabled {
-  opacity: .25;
+.glider-prev.disabled,.glider-next_1.glider-next_1.disabled,.glider-prev_1.disabled {
+  opacity: 0;
   color: #666;
   cursor: default;
 }
