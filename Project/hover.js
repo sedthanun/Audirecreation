@@ -19,7 +19,7 @@ function a4avant(){
    function a5coupe(){
     document.getElementById("pic2").setAttribute("src", "Image+Site/Navbar/a5.png");
     document.getElementById("car_model2").innerHTML = "A5 Coupe >";
-    document.getElementById("car_model2").setAttribute("href", "#aaa");
+    document.getElementById("car_model2").setAttribute("href", "Image+Site/A5/A5 Coupé/a5.html");
     document.getElementById("car_spec2").innerHTML = "Object of attention? It's already on the road. <br>The Audi A5 Coupé.";
    }
    function a5sportback(){
@@ -31,7 +31,7 @@ function a4avant(){
    function a6sedan(){
     document.getElementById("pic3").setAttribute("src", "Image+Site/Navbar/a6.png");
     document.getElementById("car_model3").innerHTML = "A6 Sedan >";
-    document.getElementById("car_model3").setAttribute("href", "#aaa");
+    document.getElementById("car_model3").setAttribute("href", "Image+Site/A6/A6 Sedan/a6_sedan.html");
     document.getElementById("car_spec3").innerHTML = "Progress is not just felt. It is experienced. <br> The new A6 Sedan.";
    }
    function a6avant(){
