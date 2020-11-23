@@ -79,11 +79,11 @@ function typing(number) {
 }
 function change_image(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[0].src = "4.1.png";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+Site/TT/TT RS Coupe/4.1.png";
     checking_active(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[0].src = "4.2.webp";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+Site/TT/TT RS Coupe/4.2.webp";
     checking_active(number);
   }
 }
