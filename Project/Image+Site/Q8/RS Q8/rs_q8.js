@@ -75,15 +75,15 @@ function typing(number) {
 }
 function change_image(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[0].src = "5.1.png";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+Site/Q8/RS Q8/5.1.png";
     checking_active(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[0].src = "5.2.png";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+Site/Q8/RS Q8/5.2.png";
     checking_active(number);
   }
   else if (number == 3) {
-    document.getElementsByClassName("picture_exterior")[0].src = "5.3.webp";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+Site/Q8/RS Q8/5.3.webp";
     checking_active(number);
   }
 }
