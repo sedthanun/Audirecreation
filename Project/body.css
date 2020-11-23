@@ -208,13 +208,14 @@ h1{
     min-width: 220px;
 }
 
-/* navber */
+/* navbar */
 nav ul{
     margin: 0;
     padding: 0!important;
     float: left;
     list-style: none;
     position: relative;
+    font-size: 1vw;
     
 
 }
@@ -314,7 +315,7 @@ nav li.open .menu-sub{
     margin: 0px;
 }
 nav li:nth-child(17){
-    margin-left: 5cm;
+    margin-left: 0.9vw;
 }
 .square::before{
     content: "";

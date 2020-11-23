@@ -8,8 +8,8 @@
     
 }
 .bottom-left {
-    position: absolute;
-    top: 520px;
+    position: relative;
+    top: -65px;
     left: 60px;
     
 }
