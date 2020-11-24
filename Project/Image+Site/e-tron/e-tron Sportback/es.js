@@ -206,70 +206,64 @@ function checking_active2(number) {
   }
 }
 
-/* change image 3 */
+
+
+/* change image 3*/
 function change_image3(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[2].src = "Image+Site/e-tron/e-tron Sportback/10.1.jpg";
+    document.getElementsByClassName("picture_exterior")[2].src = "Image+site/e-tron/e-tron Sportback/more/3.1.jpg";
     checking_active3(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[2].src = "Image+Site/e-tron/e-tron Sportback/10.2.jpg";
+    document.getElementsByClassName("picture_exterior")[2].src = "Image+site/e-tron/e-tron Sportback/more/3.2.jpg";
     checking_active3(number);
   }
 }
+
 function checking_active3(number) {
   if (number == 1) {
-    document.querySelectorAll('.View3')[3].classList.add('View_active');
-    if (document.querySelectorAll('.View3')[4].classList.contains('View_active')) {
-      document.querySelectorAll('.View3')[4].classList.remove('View_active')
-    }
-    if (document.querySelectorAll('.View3')[5].classList.contains('View_active')) {
-      document.querySelectorAll('.View3')[5].classList.remove('View_active')
+    document.querySelectorAll('.View3')[0].classList.add('View_active2');
+    if (document.querySelectorAll('.View3')[1].classList.contains('View_active2')) {
+      document.querySelectorAll('.View3')[1].classList.remove('View_active2')
     }
   }
   else if (number == 2) {
-    document.querySelectorAll('.View3')[4].classList.add('View_active');
-    if (document.querySelectorAll('.View3')[3].classList.contains('View_active')) {
-      document.querySelectorAll('.View3')[3].classList.remove('View_active')
-    }
-    if (document.querySelectorAll('.View3')[5].classList.contains('View_active')) {
-      document.querySelectorAll('.View3')[5].classList.remove('View_active')
+    document.querySelectorAll('.View3')[1].classList.add('View_active2');
+    if (document.querySelectorAll('.View3')[0].classList.contains('View_active2')) {
+      document.querySelectorAll('.View3')[0].classList.remove('View_active2')
     }
   }
 }
 
+
 /* change image 4*/
 function change_image4(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[3].src = "Image+site/A7/A7 Sport/9.1.jpeg";
+    document.getElementsByClassName("picture_exterior")[3].src = "Image+site/e-tron/e-tron Sportback/10.1.jpg";
     checking_active4(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[3].src = "Image+site/A7/A7 Sport/9.2.jpeg";
+    document.getElementsByClassName("picture_exterior")[3].src = "Image+site/e-tron/e-tron Sportback/10.2.jpg";
     checking_active4(number);
   }
 }
 
 function checking_active4(number) {
   if (number == 1) {
-    document.querySelectorAll('.View')[3].classList.add('View_active2');
-    if (document.querySelectorAll('.View')[4].classList.contains('View_active2')) {
-      document.querySelectorAll('.View')[4].classList.remove('View_active2')
-    }
-    if (document.querySelectorAll('.View')[5].classList.contains('View_active2')) {
-      document.querySelectorAll('.View')[5].classList.remove('View_active2')
+    document.querySelectorAll('.View4')[0].classList.add('View_active2');
+    if (document.querySelectorAll('.View4')[1].classList.contains('View_active2')) {
+      document.querySelectorAll('.View4')[1].classList.remove('View_active2')
     }
   }
   else if (number == 2) {
-    document.querySelectorAll('.View')[4].classList.add('View_active2');
-    if (document.querySelectorAll('.View')[3].classList.contains('View_active2')) {
-      document.querySelectorAll('.View')[3].classList.remove('View_active2')
-    }
-    if (document.querySelectorAll('.View')[5].classList.contains('View_active2')) {
-      document.querySelectorAll('.View')[5].classList.remove('View_active2')
+    document.querySelectorAll('.View4')[1].classList.add('View_active2');
+    if (document.querySelectorAll('.View4')[0].classList.contains('View_active2')) {
+      document.querySelectorAll('.View4')[0].classList.remove('View_active2')
     }
   }
 }
+
+
 
 function show(number) {
   if (count_hidden == 0) {
@@ -280,7 +274,7 @@ function show(number) {
     document.getElementsByClassName('more_exterior')[number - 1].style.opacity = "0";
     count_hidden = 1;
     if (number >= 3) {
-      document.getElementsByClassName("circle_main")[number - 1].style.backgroundColor = "rgb(76,76,76)";
+      
     }
   }
   else if (count_hidden == 1) {
@@ -291,7 +285,7 @@ function show(number) {
     document.getElementsByClassName('more_exterior')[number - 1].style.opacity = "1";
     count_hidden = 0;
     if (number >= 3) {
-      document.getElementsByClassName("circle_main")[number - 1].style.backgroundColor = "rgb(0,0,0)";
+      
     }
   }
 

@@ -17,6 +17,28 @@
     left: 0;
 }
 
+.text-block-middle{
+    width: 70%;
+    position: absolute;
+    padding: 2vw;
+  background-color: white;
+  color:black;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 25px;
+  left: 15%;
+}
+.text-block-middle2{
+    width: 70%;
+    position: absolute;
+    padding: 2vw;
+  background-color: white;
+  color:black;
+  padding-left: 20px;
+  top: 80vw;
+  left: 9%;
+}
+
 .pdf_bar{
     display: flex;
     align-items: center;
@@ -189,12 +211,12 @@
 }
 .hidden_h1{
     margin-left: 20%;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 }
 .hidden_content{
     margin-bottom: 10em;
 }
-.View, .View2, .View3{
+.View, .View2, .View3, .View4{
     margin-right: 2em;
 }
 .View:link{
@@ -211,7 +233,7 @@
     color: rgb(74, 74, 74);
 }
 
-.View2:hover, .View3:hover{
+.View2:hover, .View3:hover, .View4:hover{
     margin-right: 2em;
     text-decoration: none;
     color: rgb(110, 110, 110);
@@ -225,12 +247,12 @@
     color: gray;
 }
 .View_active{
-    color: white;
-    border-bottom: 2px solid white;
+    color: black;
+    border-bottom: 2px solid black;
 }
 
 .View_active2{
-    color: black;
+    color:black;
     border-bottom: 2px solid black;
 }
 
