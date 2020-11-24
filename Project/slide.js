@@ -70,6 +70,31 @@ var bs = {
     ]
 }
 
+var link = [
+    "etron.html",
+    "etron_sport.html",
+    "",
+    "a4_sedan.html",
+    "",
+    "",
+    "a5.html",
+    "a5_sportback.html",
+    "a6_avant.html",
+    "a6_sedan.html",
+    "a7.html",
+    "a8.html",
+    "q2.html",
+    "Q3.html",
+    "Q3_Sportback.html",
+    "q5.html",
+    "q7.html",
+    "q8.html",
+    "re_q8.html",
+    "tt_coupe.html",
+    "tt_roadster.html",
+    "tt_re_coupe.html"
+]
+
  
 
 /*loop for car*/
@@ -94,7 +119,7 @@ for (let i = 1; i <= 13; i++) {
     var data1 = document.getElementsByClassName("row1")[i - 1];
     for (let j = 0; j < models["car"][i - 1].length; j++) {
         data1.innerHTML +=
-            " <a class='w-50' href=''><img class='img-fluid' src='" + models["car"][i - 1][j][1] + "'><p>" + models["car"][i - 1][j][0] + "</p>\
+            " <a class='w-50' href='link["++"]'><img class='img-fluid' src='" + models["car"][i - 1][j][1] + "'><p>" + models["car"][i - 1][j][0] + "</p>\
         </a>"
     }
 }
