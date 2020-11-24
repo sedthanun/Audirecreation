@@ -74,11 +74,11 @@ function typing(number) {
 /* change image 1 */
 function change_image(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[0].src = "6.1.jpg";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+site/A8/A8 L/6.1.jpg";
     checking_active(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[0].src = "6.2.jpg";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+site/A8/A8 L/6.2.jpg";
     checking_active(number);
   }
 }
