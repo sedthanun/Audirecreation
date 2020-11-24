@@ -86,18 +86,18 @@ function typing(number) {
 //ฟังก์ชันในการเลือกรูปภาพ
 function change_image(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[0].src = "4.1.webp";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+site/A6/A6 Sedan/4.1.webp";
     checking_active(number);
     console.log(document.getElementsByClassName("picture_exterior")[0])
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[0].src = "4.2.webp";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+site/A6/A6 Sedan/4.2.webp";
     checking_active(number);
     console.log(document.getElementsByClassName("picture_exterior")[0])
 
   }
   else if (number == 3) {
-    document.getElementsByClassName("picture_exterior")[0].src = "4.3.webp";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+site/A6/A6 Sedan/4.3.webp";
     checking_active(number);
     console.log(document.getElementsByClassName("picture_exterior")[0])
 

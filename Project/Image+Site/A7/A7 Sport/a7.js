@@ -202,11 +202,11 @@ function checking_active3(number) {
 /* change image 4*/
 function change_image4(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[3].src = "9.1.jpeg";
+    document.getElementsByClassName("picture_exterior")[3].src = "Image+site/A7/A7 Sport/9.1.jpeg";
     checking_active4(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[3].src = "9.2.jpeg";
+    document.getElementsByClassName("picture_exterior")[3].src = "Image+site/A7/A7 Sport/9.2.jpeg";
     checking_active4(number);
   }
 }
