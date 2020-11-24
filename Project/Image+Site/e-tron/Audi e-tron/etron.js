@@ -87,41 +87,41 @@ function typing(number) {
 //ฟังก์ชันในการเลือกรูปภาพ
 function change_image(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[0].src = "4.1.webp";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+Site/e-tron/Audi e-tron/4.1.webp";
     checking_active(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[0].src = "4.2.webp";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+Site/e-tron/Audi e-tron/4.2.webp";
     checking_active(number);
   }
   else if (number == 3) {
-    document.getElementsByClassName("picture_exterior")[0].src = "4.3.webp";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+Site/e-tron/Audi e-tron/4.3.webp";
     checking_active(number);
   }
 }
 
 function changeimage2(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[1].src = "5.1.webp";
+    document.getElementsByClassName("picture_exterior")[1].src = "Image+Site/e-tron/Audi e-tron/5.1.webp";
     checking_active2(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[1].src = "5.2.webp";
+    document.getElementsByClassName("picture_exterior")[1].src = "Image+Site/e-tron/Audi e-tron/5.2.webp";
     checking_active2(number);
   }
   else if (number == 3) {
-    document.getElementsByClassName("picture_exterior")[1].src = "5.3.webp";
+    document.getElementsByClassName("picture_exterior")[1].src = "Image+Site/e-tron/Audi e-tron/5.3.webp";
     checking_active2(number);
   }
 }
 
 function changeimage3(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[2].src = "13.1.webp";
+    document.getElementsByClassName("picture_exterior")[2].src = "Image+Site/e-tron/Audi e-tron/13.1.webp";
     checking_active3(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[2].src = "13.2.jfif";
+    document.getElementsByClassName("picture_exterior")[2].src = "Image+Site/e-tron/Audi e-tron/13.2.jfif";
     checking_active3(number);
   }
 }
