@@ -80,15 +80,15 @@ function typing(number) {
 /* change image 1 */
 function change_image(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[0].src = "6.1.jpg";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+site/A7/A7 Sport/6.1.jpg";
     checking_active(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[0].src = "6.2.jpg";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+site/A7/A7 Sport/6.2.jpg";
     checking_active(number);
   }
   else if (number == 3) {
-    document.getElementsByClassName("picture_exterior")[0].src = "6.3.jpg";
+    document.getElementsByClassName("picture_exterior")[0].src = "Image+site/A7/A7 Sport/6.3.jpg";
     checking_active(number);
   }
 }
@@ -125,15 +125,15 @@ function checking_active(number) {
 /* change image 2 */
 function change_image2(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[1].src = "more/4.1.png";
+    document.getElementsByClassName("picture_exterior")[1].src = "Image+site/A7/A7 Sport/more/4.1.png";
     checking_active2(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[1].src = "more/4.2.png";
+    document.getElementsByClassName("picture_exterior")[1].src = "Image+site/A7/A7 Sport/more/4.2.png";
     checking_active2(number);
   }
   else if (number == 3) {
-    document.getElementsByClassName("picture_exterior")[1].src = "more/4.3.webp";
+    document.getElementsByClassName("picture_exterior")[1].src = "Image+site/A7/A7 Sport/more/4.3.webp";
     checking_active2(number);
   }
 }
@@ -170,11 +170,11 @@ function checking_active2(number) {
 /* change image 3 */
 function change_image3(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[2].src = "more/8.1.png";
+    document.getElementsByClassName("picture_exterior")[2].src = "Image+site/A7/A7 Sport/more/8.1.png";
     checking_active3(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[2].src = "more/8.2.png";
+    document.getElementsByClassName("picture_exterior")[2].src = "Image+site/A7/A7 Sport/more/8.2.png";
     checking_active3(number);
   }
 }
@@ -202,11 +202,11 @@ function checking_active3(number) {
 /* change image 4*/
 function change_image4(number) {
   if (number == 1) {
-    document.getElementsByClassName("picture_exterior")[3].src = "9.1.jpeg";
+    document.getElementsByClassName("picture_exterior")[3].src = "Image+site/A7/A7 Sport/9.1.jpeg";
     checking_active4(number);
   }
   else if (number == 2) {
-    document.getElementsByClassName("picture_exterior")[3].src = "9.2.jpeg";
+    document.getElementsByClassName("picture_exterior")[3].src = "Image+site/A7/A7 Sport/9.2.jpeg";
     checking_active4(number);
   }
 }

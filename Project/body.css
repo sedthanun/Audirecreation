@@ -221,16 +221,12 @@ nav ul{
     list-style: none;
     position: relative;
     font-size: 1vw;
-    
-
 }
-
 
 
 nav li {
     display: inline-block;
-    padding: 0px 12px;
-
+    padding: 0px 10px;
 }
 
 nav a{
@@ -246,12 +242,10 @@ nav a:hover{
 nav{   
     display: flex;
     justify-content: center;
-    padding: 20px 6%;
+    padding: 20px 0px;
     margin:0;
     position: relative;
     z-index: 2000;
-
-    
 }
 
 .logo{
@@ -307,20 +301,23 @@ nav{
 nav li.open .menu-search{
     height: 170px;
     margin: 0px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.377);
 }
 
 nav li.open .menu-menu{
     height: 350px;
     margin: 0px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.377);
 }
 
 
 nav li.open .menu-sub{
     height: 550px;
     margin: 0px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.377);
 }
 nav li:nth-child(17){
-    margin-left: 10vw;
+    margin-left: 20vw;
 }
 .square::before{
     content: "";
@@ -357,6 +354,13 @@ nav li:nth-child(17){
 .x-btn{
     border: unset;
     background-color: unset;
+    font-size: 30px;
+}
+
+.menu-search .x-btn{
+    margin-top: -20px;
+    float: right;
+    padding-right: 2%;
 }
 
 .pic-menu{
@@ -379,4 +383,9 @@ nav li:nth-child(17){
 
 button:focus{
     outline: 0;
+}
+
+.nav-link{
+    padding-right: 5%!important;
+    padding-left: 5%!important;
 }
