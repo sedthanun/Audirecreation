@@ -115,6 +115,18 @@ function changeimage2(number) {
   }
 }
 
+function changeimage3(number) {
+  if (number == 1) {
+    document.getElementsByClassName("picture_exterior")[2].src = "13.1.webp";
+    checking_active3(number);
+  }
+  else if (number == 2) {
+    document.getElementsByClassName("picture_exterior")[2].src = "13.2.jfif";
+    checking_active3(number);
+  }
+}
+
+
 
 //ฟังก์ชันในการเปลี่ยนstyleของตัวเลือกภาพ
 function checking_active(number) {
@@ -176,6 +188,35 @@ function checking_active2(number) {
     }
   }
 }
+function checking_active3(number) {
+  if (number == 1) {
+    document.querySelectorAll('.View')[6].classList.add('View_active');
+    if (document.querySelectorAll('.View')[7].classList.contains('View_active')) {
+      document.querySelectorAll('.View')[7].classList.remove('View_active')
+    }
+    if (document.querySelectorAll('.View')[8].classList.contains('View_active')) {
+      document.querySelectorAll('.View')[8].classList.remove('View_active')
+    }
+  }
+  else if (number == 2) {
+    document.querySelectorAll('.View')[7].classList.add('View_active');
+    if (document.querySelectorAll('.View')[6].classList.contains('View_active')) {
+      document.querySelectorAll('.View')[6].classList.remove('View_active')
+    }
+    if (document.querySelectorAll('.View')[7].classList.contains('View_active')) {
+      document.querySelectorAll('.View')[7].classList.remove('View_active')
+    }
+  }
+  else if (number == 3) {
+    document.querySelectorAll('.View')[7].classList.add('View_active');
+    if (document.querySelectorAll('.View')[6].classList.contains('View_active')) {
+      document.querySelectorAll('.View')[6].classList.remove('View_active')
+    }
+    if (document.querySelectorAll('.View')[6].classList.contains('View_active')) {
+      document.querySelectorAll('.View')[6].classList.remove('View_active')
+    }
+  }
+}
 //ฟังก์ชันเมื่อกดปุ่ม+ในบริเวณmore
 function show(number) {
   if (count_hidden == 0) {
@@ -186,7 +227,7 @@ function show(number) {
     document.getElementsByClassName('more_exterior')[number - 1].style.opacity = "0";
     count_hidden = 1;
     if (number >= 3) {
-      document.getElementsByClassName("circle_main")[number - 1].style.backgroundColor = "rgb(76,76,76)";
+      
     }
   }
   else if (count_hidden == 1) {
