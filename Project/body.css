@@ -315,7 +315,7 @@ nav li.open .menu-sub{
     margin: 0px;
 }
 nav li:nth-child(17){
-    margin-left: 0.9vw;
+    margin-left: 10vw;
 }
 .square::before{
     content: "";
