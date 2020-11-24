@@ -66,9 +66,9 @@ function a4avant(){
    }
    function tt1(){
     document.getElementById("pic6").setAttribute("src", "Image+Site/Navbar/tt.png");
-    document.getElementById("car_model6").innerHTML = "TT CoupÃ© >";
+    document.getElementById("car_model6").innerHTML = "TT Coupé >";
     document.getElementById("car_model6").setAttribute("href", "#aaa");
-    document.getElementById("car_spec6").innerHTML = "The Audi TT CoupÃ©. <br> Pure emotion packaged in form and function. <br> Pure consistency in quality and efficiency. <br> Pure sportsmanship brought to the road.";
+    document.getElementById("car_spec6").innerHTML = "The Audi TT Coupé. Pure emotion packaged <br> in form and function. Pure consistency in <br> quality and efficiency. Pure sportsmanship <br> brought to the road.";
    }
    function tt2(){
     document.getElementById("pic6").setAttribute("src", "Image+Site/Navbar/tt_2.png");
@@ -78,7 +78,7 @@ function a4avant(){
    }
    function tt3(){
     document.getElementById("pic6").setAttribute("src", "Image+Site/Navbar/tt_3.png");
-    document.getElementById("car_model6").innerHTML = "TT RS CoupÃ©  >";
+    document.getElementById("car_model6").innerHTML = "TT RS Coupé  >";
     document.getElementById("car_model6").setAttribute("href", "#aaa");
     document.getElementById("car_spec6").innerHTML = "Ultimate sportiness. The Audi TT RS Coupé.";
    }
@@ -96,7 +96,7 @@ function a4avant(){
    }
    function rs3(){
     document.getElementById("pic7").setAttribute("src", "Image+Site/Navbar/tt_3.png");
-    document.getElementById("car_model7").innerHTML = "TT RS CoupÃ©  >";
+    document.getElementById("car_model7").innerHTML = "TT RS Coupé  >";
     document.getElementById("car_model7").setAttribute("href", "#aaa");
     document.getElementById("car_spec7").innerHTML = "Ultimate sportiness. The Audi TT RS Coupé.";
    }
