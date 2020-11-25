@@ -35,7 +35,7 @@ var models = {
             ["Q7", "Image+Site/first/data/model/11.1.jpeg", "q7.html"]
         ],
         [
-            ["Q8", "Image+Site/first/data/model/12.1.jpeg", "q8.html"], ["RS Q8", "Image+Site/first/data/model/12.2.jpeg", "re_q8.html"]
+            ["Q8", "Image+Site/first/data/model/12.1.jpeg", "q8.html"], ["RS Q8", "Image+Site/first/data/model/12.2.jpeg", "rs_q8.html"]
         ],
         [
             ["TT Coupé", "Image+Site/first/data/model/13.1.jpeg", "tt_coupe.html"], ["TT Roadster", "Image+Site/first/data/model/13.2.jpeg", "tt_roadster.html"], ["TT RS Coupé", "Image+Site/first/data/model/13.3.jpeg", "tt_rs_coupe.html"]
