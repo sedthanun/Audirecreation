@@ -82,18 +82,17 @@
     margin-bottom: 2em;
 }
 .p_left{
-    
     width: 60%;
     /* margin:0 auto; */
-    font-size: 19.2px;
+    font-size: 15px;
     margin-bottom: 42px;   
-    margin-left: 10em; 
+    margin-left: 10rem; 
 }
 .h1_left{
     font-size: 2rem;
     margin-bottom: 10px;
     margin-top: 20px;
-    margin-left: 6em;
+    margin-left: 10rem;
 }
 .exterior{
     display: flex;
@@ -194,11 +193,9 @@
     transition-duration: .5s;
 }
 .inside{
-    
     width: 60%; 
     background-color: white;
     position: absolute;
-    top: 200em;
     left: 13em;
     margin-left: auto;
     margin-right: auto;
