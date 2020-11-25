@@ -11,7 +11,7 @@ var models = {
             ["A4 sedan", "Image+Site/first/data/model/3.1.jpeg", "a4_sedan.html"], ["A4 Avant", "Image+Site/first/data/model/3.2.jpeg", "a4_avant.html"], ["RS 4 Avant", "Image+Site/first/data/model/3.3.jpeg", "rs_a4.html"]
         ],
         [
-            ["A5 Coupé", "Image+Site/first/data/model/4.1.jpeg", "a5.html"], ["A5 Sportback", "Image+Site/first/data/model/4.2.jpeg", "a5_sportback.html"],
+            ["A5 Coupé", "Image+Site/first/data/model/4.1.jpeg", "a5coupe.html"], ["A5 Sportback", "Image+Site/first/data/model/4.2.jpeg", "a5_sportback.html"],
         ],
         [
             ["A6 Sedan", "Image+Site/first/data/model/5.1.jpeg", "a6_sedan.html"], ["A6 Avant", "Image+Site/first/data/model/5.2.jpeg", "a6_avant.html"],
@@ -59,7 +59,7 @@ var bs = {
             ["A4 Avant", "Image+Site/first/data/model/3.2.jpeg", "a4_avant.html"], ["RS 4 Avant", "Image+Site/first/data/model/3.3.jpeg", "rs_a4.html.html"], ["A6 Avant", "Image+Site/first/data/model/5.2.jpeg", "a6_avant.html"]
         ],
         [
-            ["A5 Coupé", "Image+Site/first/data/model/4.1.jpeg", "a5.html"], ["TT Coupé", "Image+Site/first/data/model/13.1.jpeg", "tt_coupe.html"], ["TT RS Coupé", "Image+Site/first/data/model/13.3.jpeg", "tt_rs_coupe.html"]
+            ["A5 Coupé", "Image+Site/first/data/model/4.1.jpeg", "a5coupe.html"], ["TT Coupé", "Image+Site/first/data/model/13.1.jpeg", "tt_coupe.html"], ["TT RS Coupé", "Image+Site/first/data/model/13.3.jpeg", "tt_rs_coupe.html"]
         ],
         [
             ["TT Coupé", "Image+Site/first/data/model/13.1.jpeg", "tt_coupe.html"]
@@ -77,7 +77,7 @@ var link = [
     "a4_sedan.html",
     "a4_avant.html",
     "rs_a4.html",
-    "a5.html",
+    "a5coupe.html",
     "a5_sportback.html",
     "a6_avant.html",
     "a6_sedan.html",

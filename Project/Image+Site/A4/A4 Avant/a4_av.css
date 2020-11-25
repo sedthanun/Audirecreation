@@ -149,9 +149,6 @@
 .hidden_content{
     margin-bottom: 2em;
 }
-.View{
-    margin-right: 2em;
-}
 .View:link{
     margin-right: 2em;
     text-decoration: none;
@@ -161,20 +158,21 @@
     text-decoration: none;
 }
 .View:hover{
-    margin-right: 2em;
+    border-bottom: black 1px solid!important;
     text-decoration: none;
     color: unset;
 }
 .View:active{
-    margin-right: 2em;
     text-decoration: none;
 }
 .text-second{
     color: gray;
 }
 .View_active{
-    color: black;
-    border-bottom: 2px solid black;
+    border-bottom: black 1px solid!important;
+    min-width: 120%!important;
+    min-height: 120%!important;
+    margin-top: -16px!important;
 }
 .more_exterior{
     margin-bottom: 5em;
@@ -208,4 +206,8 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.fs{
+    font-size: 10px;
 }
